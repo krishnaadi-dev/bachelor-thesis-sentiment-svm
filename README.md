@@ -52,7 +52,8 @@ The optimal performance was achieved using: **Linear Kernel, OvO Strategy, 80:20
 * **Classification Report (Model L1)** ![Classification Report](results/classification_report_l1.png)
 * **Confusion Matrix (Model L1)** ![Confusion Matrix](results/confusion_matrix_l1.png)
 
-* **Testing Accuracy for each SVM schemes** 
+* **Testing Accuracy for each SVM schemes**
+ 
 ![Testing Accuracy](results/testing_accuracy.png)
 
 ---
