@@ -53,8 +53,13 @@ The optimal performance was achieved using: **Linear Kernel, OvO Strategy, 80:20
 * **Classification Report (Model L1)** ![Classification Report](results/classification_report_l1.png)
 * **Confusion Matrix (Model L1)** ![Confusion Matrix](results/confusion_matrix_l1.png)
 
-### 📊 Testing Accuracy for each SVM schemes** 
-![Testing Accuracy](results/testing_accuracy.png)
+### 📊 Testing Accuracy for each SVM schemes 
+| Model | Multiclass Strategy | ADASYN | Testing Accuracy |
+|------|---------------------|--------|------------------|
+| **L1** ⭐ | One-vs-One (OvO) | No | **0.7834** |
+| L2 | One-vs-Rest (OvR) | No | 0.7448 |
+| LA1 | One-vs-One (OvO) | Yes | 0.7300 |
+| LA2 | One-vs-Rest (OvR) | Yes | 0.7181 |
 
 ---
 
