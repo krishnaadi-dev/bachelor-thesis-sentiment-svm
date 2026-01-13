@@ -1,6 +1,6 @@
 # 📊  Twitter Sentiment Analysis on Reopening of TikTok Shop: SVM with ADASYN
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.14+-blue.svg)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Latest-orange.svg)](https://scikit-learn.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -43,6 +43,7 @@ This research compares **4 distinct modeling schemes** with the following combin
 
 ### 📈 Sentiment Polarity in Dataset
 ![Sentiment Polarity](results/sentiment_polarity.png)
+
 *Initial data distribution before balancing.*
 
 ### 🏆 Best Performing Model: **Model L1**
@@ -51,13 +52,8 @@ The optimal performance was achieved using: **Linear Kernel, OvO Strategy, 80:20
 * **Classification Report (Model L1)** ![Classification Report](results/classification_report_l1.png)
 * **Confusion Matrix (Model L1)** ![Confusion Matrix](results/confusion_matrix_l1.png)
 
-* **Testing Accuracy for each SVM schemes** ![Testing Accuracy](results/testing_accuracy.png)
-
-| Metric | Score |
-| :--- | :--- |
-| **Accuracy** | **78.34%** |
-| **Macro F1-Score** | **76.52%** |
-| **Macro Precision** | **80.76%** |
+* **Testing Accuracy for each SVM schemes** 
+![Testing Accuracy](results/testing_accuracy.png)
 
 ---
 
