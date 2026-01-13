@@ -4,6 +4,11 @@
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Latest-orange.svg)](https://scikit-learn.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+This repository contains code and sample data adapted from an **Undergraduate Thesis Project**.
+
+**Thesis Title**: *Analisis Sentimen Pengguna Twitter pada Pembukaan Kembali Tiktok Shop di Indonesia: Implementasi SVM dengan ADASYN*
+**Author**: I Gede Krishna Adi
+
 ## 📌 Project Description
 This project implements Sentiment Analysis on social media data (Twitter/X) using the **Support Vector Machine (SVM)** algorithm. The core focus is evaluating model performance through **4 experimental schemes** involving data balancing techniques (ADASYN) and various SVM multiclass strategies.
 
