@@ -13,6 +13,7 @@ Initial data labeling was performed automatically using the **IndoBERT** model a
 
 ## 🛠️ Tech Stack
 * **Language:** Python
+* **Crawling** [tweet-harvest](https://github.com/helmisatria/tweet-harvest)
 * **Labeling:** [IndoBERT](https://huggingface.co/mdhugol/indonesia-bert-sentiment-classification)
 * **Modeling:** Support Vector Machine (Scikit-Learn)
 * **Imbalance Handling:** ADASYN
@@ -21,7 +22,7 @@ Initial data labeling was performed automatically using the **IndoBERT** model a
 ---
 
 ### 📂 Project Workflow
-1.  **[01_crawling.ipynb](./notebooks/01_crawling.ipynb)**: Data acquisition from Twitter using [tweet-harvest](https://github.com/helmisatria/tweet-harvest).
+1.  **[01_crawling.ipynb](./notebooks/01_crawling.ipynb)**: Data acquisition from Twitter using tweet-harvest.
 2.  **[02_preprocessing.ipynb](./notebooks/02_preprocessing.ipynb)**: Text cleaning (cleansing, normalization, stemming).
 3.  **[03_labeling.ipynb](./notebooks/03_labeling.ipynb)**: Automatic labeling with IndoBERT & validated by human.
 4.  **[04_modeling.ipynb](./notebooks/04_modeling.ipynb)**: Implementation of 4 SVM schemes and performance evaluation.
@@ -44,7 +45,7 @@ This research compares **4 distinct modeling schemes** with the following combin
 ### 📈 Sentiment Polarity in Dataset
 ![Sentiment Polarity](results/sentiment_polarity.png)
 
-*Initial data distribution before balancing.*
+* *Initial data distribution before balancing.*
 
 ### 🏆 Best Performing Model: **Model L1**
 The optimal performance was achieved using: **Linear Kernel, OvO Strategy, 80:20 Split, without ADASYN.**
@@ -52,8 +53,8 @@ The optimal performance was achieved using: **Linear Kernel, OvO Strategy, 80:20
 * **Classification Report (Model L1)** ![Classification Report](results/classification_report_l1.png)
 * **Confusion Matrix (Model L1)** ![Confusion Matrix](results/confusion_matrix_l1.png)
 
-* **Testing Accuracy for each SVM schemes**
- 
+* **Testing Accuracy for each SVM schemes** 
+
 ![Testing Accuracy](results/testing_accuracy.png)
 
 ---
