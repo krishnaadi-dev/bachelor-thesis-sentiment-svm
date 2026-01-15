@@ -19,7 +19,7 @@ Initial data labeling was performed automatically using the **IndoBERT** a pre-t
 
 ## 🛠️ Tech Stack
 * **Language:** Python
-* **Crawling** [tweet-harvest](https://github.com/helmisatria/tweet-harvest)
+* **Crawling:** [tweet-harvest](https://github.com/helmisatria/tweet-harvest)
 * **Labeling:** [IndoBERT](https://huggingface.co/mdhugol/indonesia-bert-sentiment-classification)
 * **Modeling:** Support Vector Machine (Scikit-Learn)
 * **Imbalance Handling:** ADASYN
@@ -80,10 +80,10 @@ This shows that *oversampling is not always beneficial*, therefore evaluation mu
 ## 📁 Project Structure
 ```text
 .
-├── 📁 data/             # Data samples (Raw & Labeled)
-├── 📁 notebooks/        # Jupyter Notebooks (Preprocessing & Modeling)
-├── 📁 results/          # Visualizations (Graphs & Reports)
-├── 📄 .gitignore        # Files to exclude from Git
+├── 📁 data/             # Data samples 
+├── 📁 notebooks/        # Jupyter Notebooks/Codes
+├── 📁 results/          # Visualizations 
+├── 📄 .gitignore        
 ├── 📄 requirements.txt   # Required Python libraries
 └── 📄 README.md          # Project documentation
 ```
