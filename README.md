@@ -57,7 +57,6 @@ This research compares **4 distinct modeling schemes** with the following combin
 The optimal performance was achieved using: **Linear Kernel, OvO Strategy, 80:20 Split, without ADASYN.**
 This shows that *oversampling is not always beneficial*, therefore evaluation must be based on actual data results.
 
----
 
 * **Classification Report (Model L1)** ![Classification Report](results/classification_report_l1.png)
 * **Confusion Matrix (Model L1)** ![Confusion Matrix](results/confusion_matrix_l1.png)
