@@ -58,8 +58,13 @@ The optimal performance was achieved using: **Linear Kernel, OvO Strategy, 80:20
 This shows that *oversampling is not always beneficial*, therefore evaluation must be based on actual data results.
 
 
-* **Classification Report (Model L1)** ![Classification Report](results/classification_report_l1.png)
-* **Confusion Matrix (Model L1)** ![Confusion Matrix](results/confusion_matrix_l1.png)
+* **Classification Report (Model L1)** 
+
+![Classification Report](results/classification_report_l1.png)
+
+* **Confusion Matrix (Model L1)** 
+
+![Confusion Matrix](results/confusion_matrix_l1.png)
 
 ### 📊 Testing Accuracy for each SVM schemes 
 | Model | Multiclass Strategy | ADASYN | Testing Accuracy |
