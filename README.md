@@ -13,7 +13,7 @@ This repository contains code and sample data adapted from an **Undergraduate Th
 ## 📌 Project Description
 This project implements Sentiment Analysis on social media data (Twitter/X) using the **Support Vector Machine (SVM)** algorithm. The core focus is evaluating model performance through **4 experimental schemes** involving data balancing techniques (ADASYN) and various SVM multiclass strategies.
 
-Initial data labeling was performed automatically using the **IndoBERT** model and manually validated to ensure high-quality ground truth labels before classification with SVM.
+Initial data labeling was performed automatically using the **IndoBERT** a pre-trained model and manually validated to ensure high-quality ground truth labels before classification with SVM.
 
 ---
 
@@ -55,6 +55,7 @@ This research compares **4 distinct modeling schemes** with the following combin
 
 ### 🏆 Best Performing Model: **Model L1**
 The optimal performance was achieved using: **Linear Kernel, OvO Strategy, 80:20 Split, without ADASYN.**
+This shows that *oversampling is not always beneficial*, therefore evaluation must be based on actual data results.
 
 * **Classification Report (Model L1)** ![Classification Report](results/classification_report_l1.png)
 * **Confusion Matrix (Model L1)** ![Confusion Matrix](results/confusion_matrix_l1.png)
