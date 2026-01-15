@@ -54,7 +54,8 @@ This research compares **4 distinct modeling schemes** with the following combin
 * *Initial data distribution before balancing.*
 
 ### 🏆 Best Performing Model: **Model L1**
-The optimal performance was achieved using: **Linear Kernel, OvO Strategy, 80:20 Split, without ADASYN.**
+The optimal performance was achieved using: **Linear Kernel, OvO Strategy, 80:20 Split, without ADASYN** with 78.34% accuracy.
+
 This shows that *oversampling is not always beneficial*, therefore evaluation must be based on actual data results.
 
 
